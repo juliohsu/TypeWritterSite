@@ -1,0 +1,31 @@
+body {
+  height: 95vh;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form, #submit-btn {
+  margin-top: 2.5rem;
+}
+
+#form, #display-text{
+  width: 55%;
+}
+
+#display-text-div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#display-text {
+  width: 100%;
+}
