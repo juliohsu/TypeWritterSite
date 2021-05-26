@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootswatch/morph.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TypeWritterOnline</title>
+  </head>
+  <body>
+    <div class="container text-center mt-4" id="container">
+      <h1 class="display-1">Your Type-Writter</h1>
+
+      <form id="form">
+        <div class="form-group">
+          <label class="form-label">
+            <h2>Here you can type your own text</h2>
+          </label>
+
+          <div class="form-floating mt-3 d-flex flex-column">
+            <input
+              type="text"
+              class="form-control col-lg-4"
+              id="text"
+              placeholder="Enter your text"
+            />
+            <label for="text">Please enter your text</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-outline-info" id="submit-btn">
+          Display
+        </button>
+      </form>
+
+      <div id="display-text-div">
+        <h2 class="display-5" id="display-text"></h2>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2021 TypeWritterEffect, autor Julio Hsu.</p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
